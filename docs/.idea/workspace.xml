@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a614e80-5680-44f8-aa38-90e0b6a4452b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/team_members/Avatar_David.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team_members/Avatar_Javi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team_members/Avatar_Manu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team_members/Avatar_Mari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team_members/Avatar_Rafa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team_members/Avatar_Vicente.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team_members/Avatar_Ángel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
