@@ -4484,7 +4484,16 @@ textarea.form-control-lg {
 .navbar-brand {
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar-brand-aux {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
     margin-right: 1rem;
+    margin-left: 1.5rem;
     font-size: 1.25rem;
     text-decoration: none;
     white-space: nowrap;
@@ -4986,6 +4995,10 @@ textarea.form-control-lg {
 }
 
 .navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+.navbar-dark .navbar-brand-aux {
     color: #fff;
 }
 
@@ -12146,6 +12159,13 @@ body {
     padding: 0.9rem 0;
 }
 
+#mainNav .navbar-brand-aux {
+    color: #000;
+    font-weight: 700;
+    padding: 0.9rem 0;
+}
+
+
 #mainNav .navbar-nav .nav-item:hover {
     color: fade(#fff, 80%);
     outline: none;
@@ -12167,12 +12187,17 @@ body {
     }
 
     #mainNav .navbar-brand {
-        padding: 0.5rem 0;
+        font-size: 2rem;
+        color: black;
+    }
+
+    #mainNav .navbar-brand-aux {
+        font-size: 2rem;
         color: black;
     }
 
     #mainNav .navbar-brand:hover {
-        color: #467370;
+        color: orange;
     }
 
     #mainNav .nav-link {
@@ -12182,7 +12207,7 @@ body {
     }
 
     #mainNav .nav-link:hover {
-        color: #467370;
+        color: orange;
     }
 
     #mainNav .nav-link:active {
@@ -12194,6 +12219,12 @@ body {
     }
 
     #mainNav.navbar-shrink .navbar-brand {
+        font-size: 2rem;
+        color: white;
+    }
+
+    #mainNav.navbar-shrink .navbar-brand-aux {
+        font-size: 2rem;
         color: white;
     }
 
@@ -12254,6 +12285,14 @@ body {
     -webkit-background-clip: text;
 }
 
+.masthead .btn {
+    font-size: 1rem;
+}
+
+.masthead .btn:hover {
+    color: orange;
+}
+
 .masthead h2, .masthead .h2 {
     max-width: 20rem;
     font-size: 1rem;
@@ -12292,7 +12331,6 @@ body {
 }
 
 .team-section h1 {
-    margin-bottom: 10rems;
     font-size: 5rem;
     font-weight: normal;
 }
@@ -12330,11 +12368,11 @@ body {
 
 .team-section .team-images a {
     text-align: center;
-    height: 6rem;
-    width: 6rem;
-    background: rgba(255, 255, 255, 0);
+    height: 5rem;
+    width: 5rem;
+    background: transparent;
     border-radius: 100%;
-    line-height: 5rem;
+    line-height:normal;
     color: rgba(255, 255, 255, 0.7);
 }
 
