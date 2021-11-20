@@ -4489,16 +4489,6 @@ textarea.form-control-lg {
     white-space: nowrap;
 }
 
-.navbar-brand-aux {
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    margin-left: 1.5rem;
-    font-size: 1.25rem;
-    text-decoration: none;
-    white-space: nowrap;
-}
-
 .navbar-nav {
     display: flex;
     flex-direction: column;
@@ -4995,10 +4985,6 @@ textarea.form-control-lg {
 }
 
 .navbar-dark .navbar-brand {
-    color: #fff;
-}
-
-.navbar-dark .navbar-brand-aux {
     color: #fff;
 }
 
@@ -12159,12 +12145,6 @@ body {
     padding: 0.9rem 0;
 }
 
-#mainNav .navbar-brand-aux {
-    color: #000;
-    font-weight: 700;
-    padding: 0.9rem 0;
-}
-
 
 #mainNav .navbar-nav .nav-item:hover {
     color: fade(#fff, 80%);
@@ -12191,10 +12171,6 @@ body {
         color: black;
     }
 
-    #mainNav .navbar-brand-aux {
-        font-size: 2rem;
-        color: black;
-    }
 
     #mainNav .navbar-brand:hover {
         color: orange;
@@ -12223,11 +12199,6 @@ body {
         color: white;
     }
 
-    #mainNav.navbar-shrink .navbar-brand-aux {
-        font-size: 2rem;
-        color: white;
-    }
-
     #mainNav.navbar-shrink .navbar-brand:hover {
         color: #467370;
     }
@@ -12252,6 +12223,81 @@ body {
         border-bottom: 0.25rem solid #64a19d;
     }
 }
+
+.arrow-social-media {
+    height: 5rem;
+    width: 8rem;
+    top: 10rem;
+    z-index: 1;
+    right: 0;
+    position: fixed;
+
+    background-color: transparent;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.arrow-social-media .mx2 {
+    color: #64a19d;
+}
+
+.arrow-social-media .mx2:hover {
+    color: orange;
+}
+
+.sidenav-social-media {
+    height: fit-content;
+    width: 0;
+    top: 10rem;
+    z-index: 1;
+    right: 0;
+    position: fixed;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-bottom-left-radius: 3rem;
+    border-top-left-radius: 3rem;
+}
+
+.sidenav-social-media a {
+    height: 2rem;
+    width: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    padding-left: 2rem;
+
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.sidenav-social-media a:hover {
+    color: orange;
+}
+
+.sidenav-social-media a:active {
+    color: orange;
+}
+
+.sidenav-social-media .closebtn {
+    position: relative;
+    padding-left: 1rem;
+    font-size: 35px;
+    color: white;
+}
+
+.sidenav-social-media .closebtn:hover {
+    color: red;
+}
+
+.sidenav-social-media .closebtn:active {
+    position: relative;
+    padding-left: 1rem;
+    font-size: 35px;
+    color: red;
+}
+
 
 .btn {
     box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -12404,7 +12450,12 @@ body {
 }
 
 .projects-section {
-    padding: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.projects-section .div {
 }
 
 .projects-section .featured-text {
@@ -12455,7 +12506,6 @@ body {
 .projects-section .btn-web:hover {
     color: orange;
 }
-
 
 
 @media (min-width: 992px) {

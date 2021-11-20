@@ -20,10 +20,10 @@
 
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#page-top">Cannibal Coconut</a>
-        <div class="navbar-brand-aux">|</div>
-        <a class="navbar-brand" href="team.html">Team members</a>
+
+    <div class="container px-4 px-lg-5 text-center">
+
+        <div><a class="navbar-brand" href="#page-top">Cannibal Coconut</a></div>
 
         <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -31,15 +31,52 @@
             Menu
             <i class="fas fa-bars"></i>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
-                <a class="nav-item"><a class="nav-link" href="#about">About</a></a>
+                <a class="nav-item"><a class="nav-link" href="#about">Info</a></a>
                 <a class="nav-item"><a class="nav-link" href="#projects">Projects</a></a>
                 <a class="nav-item"><a class="nav-link" href="#contact">Contact</a></a>
+                <a class="nav-item"><a class="nav-link" href="team.html">About us <i class="fa fa-fw fa-users"></i></a></a>
             </ul>
         </div>
+
     </div>
 </nav>
+
+<!-- Social media-->
+<div class="arrow-social-media">
+    <span class="mx2" style="cursor:pointer" onclick=openSideNav()><i
+            class="fas fa-angle-double-left fa-5x"></i></span>
+
+    <div id="sideNav" class="sidenav-social-media">
+
+        <span class="closebtn" style="cursor:pointer" onclick=closeSideNav()><i
+                class="fas fa-times-circle fa-1x"></i></span>
+
+        <a class="mx-2" href="https://twitter.com/canniba1coconut" target="_blank"><i
+                class="fab fa-twitter fa-2x"></i></a>
+        <a class="mx-2" href="https://www.instagram.com/mozzarace/" target="_blank"><i
+                class="fab fa-instagram fa-2x"></i></a>
+        <a class="mx-2" href="https://github.com/Cannibal-Coconut" target="_blank"><i
+                class="fab fa-github fa-2x"></i></a>
+        <a class="mx-2" href="https://cannibal-coconut.itch.io/" target="_blank"><i
+                class="fab fa-itch-io fa-2x"></i></a>
+    </div>
+
+
+    <script>
+        // Open the side-navbar
+        function openSideNav() {
+            document.getElementById("sideNav").style.width = "8.5rem";
+        }
+
+        // Close the side-navbar
+        function closeSideNav() {
+            document.getElementById("sideNav").style.width = "0";
+        }
+    </script>
+</div>
 
 <!-- Masthead-->
 <header class="masthead">
@@ -73,31 +110,36 @@
 
 <!-- Projects-->
 <section class="projects-section bg-light" id="projects">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 align-content-center">
-            <h2 class="text-black mb-4">Projects &#x1f3ae</h2>
-        </div>
-    </div>
-    <div class="container px-4 px-lg-5">
-        <!-- MozzaRace-->
-        <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-            <div class="col-lg-6 col-med-12">
-                <img class="img-fluid mb-3 mb-lg-0" src="assets/img/mozzarace.png" alt="..."/>
+    <div>
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 align-content-center">
+                <h2 class="text-black mb-4">Projects &#x1f3ae</h2>
             </div>
-            <div class="col-lg-6 col-med-12">
-                <div class="featured-text text-center justify-content-center">
-                    <h4>MozzaRace</h4>
-                    <p class="text-black mb-0">Welcome to MozzaRace! Are you ready to catch all the ingredients and
-                        complete all the orders? Follow us in twitter to see Concept Art, demos of the gameplay and much
-                        more.</p>
-                    <a class="btn-itchio btn btn-dark" href="https://cannibal-coconut.itch.io/mozza-race" target="_blank">Play it
-                        online on itch.io</a>
-                    <p class="or"> or </p>
-                    <a class="btn-web btn btn-dark" href="game.html">Play it
-                        right here on our website</a>
+        </div>
+        <div class="container px-4 px-lg-5">
+            <!-- MozzaRace-->
+            <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                <div class="col-lg-6 col-med-12">
+                    <img class="img-fluid mb-3 mb-lg-0" src="assets/img/mozzarace.png" alt="..."/>
+                </div>
+                <div class="col-lg-6 col-med-12">
+                    <div class="featured-text text-center justify-content-center">
+                        <h4>MozzaRace</h4>
+                        <p class="text-black mb-0">Welcome to MozzaRace! Are you ready to catch all the ingredients and
+                            complete all the orders? Follow us in twitter to see Concept Art, demos of the gameplay and
+                            much
+                            more.</p>
+                        <a class="btn-itchio btn btn-dark" href="https://cannibal-coconut.itch.io/mozza-race"
+                           target="_blank">Play it
+                            online on itch.io!</a>
+                        <p class="or"> or </p>
+                        <a class="btn-web btn btn-dark" href="game.html">Play it
+                            right here on our website!</a>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 </section>
 
