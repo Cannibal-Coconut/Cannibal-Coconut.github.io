@@ -12435,10 +12435,29 @@ body {
 
 .mozzarace-section h1 {
     font-family: panPizza;
-    font-size: 10rem;
+    font-size: 7rem;
     font-weight: normal;
     color: black;
 }
+
+@media (max-width: 999px) {
+    .large-iframe {
+        display: none;
+    }
+    .small-iframe {
+        display: initial;
+    }
+}
+
+@media (min-width: 1000px) {
+    .large-iframe {
+        display: initial;
+    }
+    .small-iframe {
+        display: none;
+    }
+}
+
 
 .about-section {
     padding-top: 5rem;
