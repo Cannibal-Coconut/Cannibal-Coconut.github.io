@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a614e80-5680-44f8-aa38-90e0b6a4452b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/GDD MozzaRace.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GDD MozzaRace.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../GDD MozzaRace.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,7 @@
       <workItem from="1637183206051" duration="18729000" />
       <workItem from="1637336319493" duration="14504000" />
       <workItem from="1637376928033" duration="1372000" />
+      <workItem from="1637516972004" duration="2709000" />
     </task>
     <servers />
   </component>
